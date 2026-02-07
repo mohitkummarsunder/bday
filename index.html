@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Vachukutty❤️</title>
+
+<style>
+:root {
+    --primary: #F9D5D3;
+    --accent: #C72C41;
+    --glass: rgba(255,255,255,0.95);
+}
+
+body {
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  font-family: calibri;
+
+    overflow: hidden;
+}
+
+.box {
+    background: var(--glass);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 460px;
+    transition: all 0.5s ease;
+}
+
+.hidden { display: none; }
+
+h1 { color: var(--accent); }
+p { color: #555; }
+
+.btn {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.btn.alt {
+    background: #eee;
+    color: #888;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: calibri;
+}
+
+.heart {
+    position: absolute;
+    animation: float 4s linear infinite;
+}
+
+@keyframes float {
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+
+
+<!-- PAGE 1 -->
+<div id="page1" class="box">
+<h1>Happy Birthday Vachupaapaa ❤️😘</h1>
+<hr>
+<p>I have something planned for you… shall we?</p>
+<button class="btn" onclick="showPage('page2')">Let’s gooo</button>
+</div>
+
+<!-- PAGE 2 -->
+<div id="page2" class="box hidden">
+<h1>So tell me. Do you love me? ❤️</h1>
+<button class="btn" onclick="showPage('page3')">Yes</button>
+<button class="btn alt" id="noBtn">No</button>
+<p>I Bet you can never click on 'No'. Try if u want to.</p>
+</div>
+
+<!-- PAGE 3 -->
+<div id="page3" class="box hidden">
+<h1>I knew it... <br> I love you more babe😘</h1>
+<p>I have something to tell you…</p>
+<button class="btn" onclick="letterFirst()">Yes!</button>
+<button class="btn alt" onclick="videoFirst()">I’ll read it at last</button>
+</div>
+
+<!-- LETTER PAGE -->
+<div id="letterPage" class="box hidden">
+<h1>To my ...Lawyer Madam ❤️</h1>
+
+<textarea rows="14" readonly>
+Vachukuttyy!
+En uyireyyy, enakku evloo happyaa irukku theriyumaa..😘😘. 
+I just wanna hold you in my arms and hug you sooo tight and vidaveyy koodadhuu..❤️❤️
+Konja varusham munaadi enakkum unakkum oru classmate relationship a thavira edhume irukkala. Aana commit aanadhuku apro, ni enakkaaga pannaadha sacrifices illa, enna pathi yosikkadha naal-eh illa. Enakku unna rombbba pudikkumm di pondatii.. Eppo da un birthday unkooda celebrate pannuveno nu iruku theriyuma. Na seekuruma anga vandhururen da kannnu adhukku apro unnna vittu oru nodi kuda dhoorama poga maaten mayilu, en kannukkkulla vechu paathukurennn di pondati. Veetla, amma-appa, veliya friends and relatives nu ellarum enna veruthappo, ennnayum madhichu na unna evlo kashta paduthunalum enkoodaye irundha...innumum irukka. Enakkum unna apdi thaanganum nu romba aasaya irukku mayilu..
+Baby, I loveee you da ma.😘😘😘😘.
+I miss you veryyy veryyy veryyy much... 
+Apro, sorrry thango, un friends a approach panni, avanga kitta unakku gift vangi thara sollalam nu dha nenachen, but ni vena nu sonniya. adha na edhum gift vaangi tharala thango.
+Indha website dha na coding kathukutu panra 1st websit. I thought idha unakku surprise a gift pannalam nu. seekuruma ni inga vandhadhuku aprama namma un birthday va onna celebrate pannuvom da kannnu seriya.❤️
+Ammukkutty, I'm sorry for everything you are going through right now, but i dont like to take advantage of you da kannamma. You are the strongest person i know. Na unna romba love panren da mayilu, but adha vida adhigama unna hurt pannren baby.
+innimey i dont want you to be the victim of this relationship and my selfishness. Indha relationship a vittra maaten baby. Life long unkoooda iruppen baby, unna en uyiru maari paathukren.❤️
+Baby...enna nambu ma.. please..
+ippo eludhuna indha para ...ill remove it by tmrw. 
+Actually idha oru 2-3 days a code pannitu irukken. Unakku pudikkum nu namburennn..
+
+Happpyy Birthdayyy diii chellakutttyyy thangameyyy..!
+Epppome sandhoshama iruuu dii thangoooo. 
+God Bless youuuuuu..!✨
+I reallly love youuu babyyy kuttyyyy..❤️❤️❤️😘😘
+</textarea>
+
+<button class="btn" onclick="goToVideo()">View Next</button>
+</div>
+
+<!-- VIDEO PAGE -->
+<div id="videoPage" class="box hidden">
+<h1>Idhuvum unakku dhan ❤️</h1>
+
+<!-- EXACT CANVA EMBED -->
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.25%;
+box-shadow: 0 2px 8px rgba(63,69,81,0.16); margin-top: 1em; overflow: hidden;
+border-radius: 8px;">
+<iframe loading="lazy"
+style="position:absolute;width:100%;height:100%;top:0;left:0;border:none;"
+src="https://www.canva.com/design/DAHAqdblAkk/cnyCwLaJZK1pJVhTXdkgCw/watch?embed"
+allowfullscreen>
+</iframe>
+</div>
+
+<!-- BACKUP LINK -->
+<p style="margin-top:10px;">
+If video doesn’t load 👉
+<a href="https://www.canva.com/design/DAHAqdblAkk/cnyCwLaJZK1pJVhTXdkgCw/watch"
+target="_blank">Click here</a>
+</p>
+
+<button class="btn" onclick="goToLetter()">Take me to the letter now</button>
+<button class="btn alt" onclick="endPage()">Continue</button>
+</div>
+
+<!-- END PAGE -->
+<div id="endPage" class="box hidden">
+<h1>Jokes aside...😂</h1>
+<h1>I love you da Vachu kannu..😘😘</h1>
+<p>WIsh you a very happy birthday dear baby..😘😘</p>
+<p>This was it. I hope you like it.</p>
+</div>
+
+<script>
+const noBtn = document.getElementById("noBtn");
+
+noBtn.addEventListener("mouseenter", () => {
+    noBtn.style.position = "fixed";
+    noBtn.style.left = Math.random()*80 + "vw";
+    noBtn.style.top = Math.random()*80 + "vh";
+});
+
+function showPage(id){
+    document.querySelectorAll(".box").forEach(b=>b.classList.add("hidden"));
+    document.getElementById(id).classList.remove("hidden");
+}
+
+function letterFirst(){
+    showPage("letterPage");
+}
+
+function videoFirst(){
+    showPage("videoPage");
+}
+
+function goToVideo(){
+    showPage("videoPage");
+}
+
+function goToLetter(){
+    showPage("letterPage");
+}
+
+function endPage(){
+    showPage("endPage");
+    setInterval(createHeart, 300);
+}
+
+function createHeart(){
+    const h = document.createElement("div");
+    h.className = "heart";
+    h.innerHTML = "❤️";
+    h.style.left = Math.random()*100+"vw";
+    h.style.top = "100vh";
+    document.body.appendChild(h);
+    setTimeout(()=>h.remove(),4000);
+}
+</script>
+
+</body>
+</html>
